@@ -18,5 +18,11 @@ public class Main {
         fleetOfCars.addCar(car3);
         System.out.println(fleetOfCars.toString());
         System.out.println(fleetOfCars.getTotalRegistrationFeeForFleet());
+
+        MainFeature mainFeature = new MainFeature();
+        NewFeature newFeature = new NewFeature();
+
+        System.out.println(mainFeature);
+        System.out.println(newFeature);
     }
 }
